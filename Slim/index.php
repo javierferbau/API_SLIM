@@ -18,7 +18,7 @@ $app->config(array(
     'templates.path' => 'vistas',
 ));
  
-// Indicamos el tipo de contenido y condificación que devolvemos desde el framework Slim.
+// Indicamos el tipo de contenido y condificación que devolvemos desde el framework lim.
 $app->contentType('text/html; charset=utf-8');
  
 // Definimos conexion de la base de datos.
