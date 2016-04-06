@@ -1,5 +1,5 @@
 <?php
-// Activamos las sesiones para el funcionamiento de flash['']
+// Activamos las sesiones para el funcionamiento de flash[']
 @session_start();
  
 require 'Slim/Slim.php';
