@@ -3,7 +3,7 @@
 @session_start();
  
 require 'Slim/Slim.php';
-// El framework Slim tiene definido un namespace llamado Slim
+// El framework Slim tiene definido un namespace llamado Sli
 // Por eso aparece \Slim\ antes del nombre de la clase.
 \Slim\Slim::registerAutoloader();
  
