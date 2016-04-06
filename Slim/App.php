@@ -165,7 +165,7 @@ class App
      * @param  string $pattern  The route URI pattern
      * @param  callable|string  $callable The route callback routine
      *
-     * @return \Slim\Interfaces\RouteInterface
+     * @return \Slim\Interfaces\
      */
     public function put($pattern, $callable)
     {
