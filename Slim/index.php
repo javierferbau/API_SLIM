@@ -20,6 +20,10 @@ $app->config(array(
  
 // Indicamos el tipo de contenido y condificación que devolvemos desde el framework lim.
 $app->contentType('text/html; charset=utf-8');
+
+$app->get('/', function() {
+            echo "Pagina de gestión API REST de mi aplicación.";
+        });
  
 // Definimos conexion de la base de datos.
 // Lo haremos utilizando PDO con el driver mysql.
